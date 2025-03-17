@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOfXiW4V8+C0p+mJwZ9X4oM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pepakayala-bhaskar/Python/blob/main/python%20program%20for%206%20pyramid%20code\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 14,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ra8rYjsRoyhf",
+        "outputId": "a633f5ab-4db9-4f0b-bd39-5e5ec979d822"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter rows: 6\n",
+            "     * \n",
+            "    * * \n",
+            "   * * * \n",
+            "  * * * * \n",
+            " * * * * * \n",
+            "* * * * * * \n"
+          ]
+        }
+      ],
+      "source": [
+        "rows = int(input(\"Enter rows: \"))\n",
+        "for i in range(1, rows + 1):\n",
+        "    print(\" \" * (rows - i) + \"* \" * i)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "hkxig0H_tXv8"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
