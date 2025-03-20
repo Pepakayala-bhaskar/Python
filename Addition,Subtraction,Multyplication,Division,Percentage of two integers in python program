@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPtGybpf1c3VTSQVr2B946W",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pepakayala-bhaskar/Python/blob/main/Addition%2CSubtraction%2CMultyplication%2CDivision%2CPercentage%20of%20two%20integers%20in%20python%20program\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ohUOtPENBkj4",
+        "outputId": "7914dd33-0c3c-4489-fd36-1e63459ff711"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter first number:5\n",
+            "enter second number:4\n",
+            "sum: 9\n",
+            "subtraction: 1\n",
+            "multiply: 20\n",
+            "divide: 1.25\n",
+            "percent: 1\n"
+          ]
+        }
+      ],
+      "source": [
+        "a=int( input(\"enter first number:\"))\n",
+        "b=int ( input(\"enter second number:\"))\n",
+        "sum=a+b\n",
+        "subtraction=a-b\n",
+        "multiply=a*b\n",
+        "divide=a/b\n",
+        "percent=a%b\n",
+        "print(\"sum:\",sum)\n",
+        "print(\"subtraction:\",subtraction)\n",
+        "print(\"multiply:\",multiply)\n",
+        "print(\"divide:\",divide)\n",
+        "print(\"percent:\",percent)"
+      ]
+    }
+  ]
+}
