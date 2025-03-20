@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMIiX1GytUC0rvnOlye6Lvs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pepakayala-bhaskar/Python/blob/main/Finding%20the%20given%20number%20is%20whether%20odd%20or%20even%20number\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 9,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UxgUOkyiIoU3",
+        "outputId": "341d5a6d-e274-4f60-b750-d417808d8fff"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number:8\n",
+            "even\n"
+          ]
+        }
+      ],
+      "source": [
+        "num=int(input(\"enter a number:\"))\n",
+        "if num %2==0:\n",
+        "  print(\"even\")\n",
+        "else:\n",
+        "  print(\"odd\")"
+      ]
+    }
+  ]
+}
