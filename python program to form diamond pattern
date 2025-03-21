@@ -1,0 +1,65 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMxb/PMg/FHk+8eupgWTir0",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pepakayala-bhaskar/Python/blob/main/python%20program%20to%20form%20diamond%20pattern\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "id": "UnUm7nccTQAm",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "577e731f-4afa-47aa-90e6-fe595ddc8b3b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "*\n",
+            "***\n",
+            "*****\n",
+            "*******\n",
+            "*********\n",
+            "*******\n",
+            "*****\n",
+            "***\n",
+            "*\n"
+          ]
+        }
+      ],
+      "source": [
+        "rows=5\n",
+        "for i in range(1,rows+1):\n",
+        "  print(\"\"*(rows-i)+\"*\"*(2*i-1))\n",
+        "for i in range(rows-1,0,-1):\n",
+        "  print(\"\"*(rows-i)+\"*\"*(2*i-1))"
+      ]
+    }
+  ]
+}
