@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMY4FpSKoOl0On1J50vPU+9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pepakayala-bhaskar/Python/blob/main/Python%20program%20for%20whether%20the%20given%20number%20is%20palindrome\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 11,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0grTOxlSXTUq",
+        "outputId": "621c51bc-405b-4acc-f652-dc5663919ab9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number:55\n",
+            "palindrome\n"
+          ]
+        }
+      ],
+      "source": [
+        "num=input(\"Enter a number:\")\n",
+        "if num == num[::-1]:\n",
+        "  print(\"palindrome\")\n",
+        "else:\n",
+        "  print(\"naot a palindrome\")\n"
+      ]
+    }
+  ]
+}
