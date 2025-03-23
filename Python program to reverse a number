@@ -1,0 +1,59 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPc6zVgb1yy2fDxjfgqmTX1",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pepakayala-bhaskar/Python/blob/main/Python%20program%20to%20reverse%20a%20number\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 5,
+      "metadata": {
+        "id": "HNVkNEShj200",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "e8e1361e-2ab2-4ea1-b487-6ba01fa8a968"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number:856\n",
+            "Reversed Number: 658\n"
+          ]
+        }
+      ],
+      "source": [
+        "num = int(input(\"Enter a number:\"))\n",
+        "rev=0\n",
+        "while num > 0:\n",
+        "  rev=rev*10+num % 10\n",
+        "  num //=10\n",
+        "print(\"Reversed Number:\",rev)"
+      ]
+    }
+  ]
+}
