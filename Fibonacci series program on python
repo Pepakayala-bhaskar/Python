@@ -1,0 +1,128 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMehLhibPfL0S7Fo3q58hwn",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pepakayala-bhaskar/Python/blob/main/Fibonacci%20series%20program%20on%20python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Program to display the Fibonacci sequence up to n-th term\n",
+        "\n",
+        "nterms = int(input(\"How many terms? \"))\n",
+        "\n",
+        "# first two terms\n",
+        "n1, n2 = 0, 1\n",
+        "count = 0\n",
+        "\n",
+        "# check if the number of terms is valid\n",
+        "if nterms <= 0:\n",
+        "   print(\"Please enter a positive integer\")\n",
+        "# if there is only one term, return n1\n",
+        "elif nterms == 1:\n",
+        "   print(\"Fibonacci sequence upto\",nterms,\":\")\n",
+        "   print(n1)\n",
+        "# generate fibonacci sequence\n",
+        "else:\n",
+        "   print(\"Fibonacci sequence:\")\n",
+        "   while count < nterms:\n",
+        "       print(n1)\n",
+        "       nth = n1 + n2\n",
+        "       # update values\n",
+        "       n1 = n2\n",
+        "       n2 = nth\n",
+        "       count += 1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1TSiNgfX4xEC",
+        "outputId": "aa7784eb-1869-4bce-8922-4b185ceffe22"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "How many terms? 50\n",
+            "Fibonacci sequence:\n",
+            "0\n",
+            "1\n",
+            "1\n",
+            "2\n",
+            "3\n",
+            "5\n",
+            "8\n",
+            "13\n",
+            "21\n",
+            "34\n",
+            "55\n",
+            "89\n",
+            "144\n",
+            "233\n",
+            "377\n",
+            "610\n",
+            "987\n",
+            "1597\n",
+            "2584\n",
+            "4181\n",
+            "6765\n",
+            "10946\n",
+            "17711\n",
+            "28657\n",
+            "46368\n",
+            "75025\n",
+            "121393\n",
+            "196418\n",
+            "317811\n",
+            "514229\n",
+            "832040\n",
+            "1346269\n",
+            "2178309\n",
+            "3524578\n",
+            "5702887\n",
+            "9227465\n",
+            "14930352\n",
+            "24157817\n",
+            "39088169\n",
+            "63245986\n",
+            "102334155\n",
+            "165580141\n",
+            "267914296\n",
+            "433494437\n",
+            "701408733\n",
+            "1134903170\n",
+            "1836311903\n",
+            "2971215073\n",
+            "4807526976\n",
+            "7778742049\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
