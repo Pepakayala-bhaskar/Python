@@ -1,0 +1,157 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOiYYFR1lgYDdoICEcnB2/g",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pepakayala-bhaskar/Python/blob/main/CODE%20OF%20FINDING%202%20TO%20100%20NUMBERS%20WHETHER%20IT%20IS%20A%20PRIME%20OR%20NOT\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sqrReHg0_3f3",
+        "outputId": "af905737-9fac-4463-a9c8-f579c7fb935f"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2 prime number\n",
+            "3 prime number\n",
+            "4 not a prime number\n",
+            "5 prime number\n",
+            "6 not a prime number\n",
+            "7 prime number\n",
+            "8 not a prime number\n",
+            "9 not a prime number\n",
+            "10 not a prime number\n",
+            "11 prime number\n",
+            "12 not a prime number\n",
+            "13 prime number\n",
+            "14 not a prime number\n",
+            "15 not a prime number\n",
+            "16 not a prime number\n",
+            "17 prime number\n",
+            "18 not a prime number\n",
+            "19 prime number\n",
+            "20 not a prime number\n",
+            "21 not a prime number\n",
+            "22 not a prime number\n",
+            "23 prime number\n",
+            "24 not a prime number\n",
+            "25 not a prime number\n",
+            "26 not a prime number\n",
+            "27 not a prime number\n",
+            "28 not a prime number\n",
+            "29 prime number\n",
+            "30 not a prime number\n",
+            "31 prime number\n",
+            "32 not a prime number\n",
+            "33 not a prime number\n",
+            "34 not a prime number\n",
+            "35 not a prime number\n",
+            "36 not a prime number\n",
+            "37 prime number\n",
+            "38 not a prime number\n",
+            "39 not a prime number\n",
+            "40 not a prime number\n",
+            "41 prime number\n",
+            "42 not a prime number\n",
+            "43 prime number\n",
+            "44 not a prime number\n",
+            "45 not a prime number\n",
+            "46 not a prime number\n",
+            "47 prime number\n",
+            "48 not a prime number\n",
+            "49 not a prime number\n",
+            "50 not a prime number\n",
+            "51 not a prime number\n",
+            "52 not a prime number\n",
+            "53 prime number\n",
+            "54 not a prime number\n",
+            "55 not a prime number\n",
+            "56 not a prime number\n",
+            "57 not a prime number\n",
+            "58 not a prime number\n",
+            "59 prime number\n",
+            "60 not a prime number\n",
+            "61 prime number\n",
+            "62 not a prime number\n",
+            "63 not a prime number\n",
+            "64 not a prime number\n",
+            "65 not a prime number\n",
+            "66 not a prime number\n",
+            "67 prime number\n",
+            "68 not a prime number\n",
+            "69 not a prime number\n",
+            "70 not a prime number\n",
+            "71 prime number\n",
+            "72 not a prime number\n",
+            "73 prime number\n",
+            "74 not a prime number\n",
+            "75 not a prime number\n",
+            "76 not a prime number\n",
+            "77 not a prime number\n",
+            "78 not a prime number\n",
+            "79 prime number\n",
+            "80 not a prime number\n",
+            "81 not a prime number\n",
+            "82 not a prime number\n",
+            "83 prime number\n",
+            "84 not a prime number\n",
+            "85 not a prime number\n",
+            "86 not a prime number\n",
+            "87 not a prime number\n",
+            "88 not a prime number\n",
+            "89 prime number\n",
+            "90 not a prime number\n",
+            "91 not a prime number\n",
+            "92 not a prime number\n",
+            "93 not a prime number\n",
+            "94 not a prime number\n",
+            "95 not a prime number\n",
+            "96 not a prime number\n",
+            "97 prime number\n",
+            "98 not a prime number\n",
+            "99 not a prime number\n",
+            "100 not a prime number\n"
+          ]
+        }
+      ],
+      "source": [
+        "for i in range(2,101):\n",
+        "    for j in range(2,i):\n",
+        "        if(i%j==0):\n",
+        "            print(i,\"not a prime number\")\n",
+        "            break\n",
+        "    else:\n",
+        "        print(i,\"prime number\")"
+      ]
+    }
+  ]
+}
